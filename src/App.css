@@ -3,9 +3,28 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 5vmin;
   pointer-events: none;
 }
+
+.ProjectTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProjectTitle div {
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  align-items: center;
+  margin: 10px 0 0 0;
+}
+
+.ProjectTitle div:first-child {
+    margin-right: 20px;
+} 
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,18 +33,19 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #333333;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: space-between;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #efefef;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ff6600;
+  font-size: .5em; 
 }
 
 @keyframes App-logo-spin {
