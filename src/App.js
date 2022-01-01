@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import './scoreboard.css';
 
-{/* usually just use props but trying it out */}
 const Header = (headerprops) => {
   console.log(headerprops)
   return (
@@ -34,21 +33,6 @@ const Counter = () => {
     </div>
   );
 }
-
-{/*
-const App = () => {
-  return (
-    <div className="scoreboard">
-      <Header title="header-title=Scoreboard" totalPlayers="5" />
-
-   
-      <Player />
-    </div>
-  );
-}
-*/}
-
-
 
 function App() {
   return (
